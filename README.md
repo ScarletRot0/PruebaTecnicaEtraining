@@ -102,6 +102,10 @@ Porque se buscaba incorporar la ubicación geográfica de las tiendas como una v
 
 Porque en comparación con XGBoost y Random Forest, CatBoost fue más estable en cuanto a tiempo de entrenamiento y resultados, pues XGBoost había logrado en pruebas un R2 score de 73% y un MSE de 84, y Random Forest había obtenido el peor, 64% de R2 score y 115 de MSE.
 
+# Diagrama ETL
+
+![image](https://github.com/user-attachments/assets/05ce01d2-f1eb-407b-b99e-dbdafb1a219b)
+
 # Conclusiones
 * La variable de precipitación tiene muy bajo poder predictivo por sí sola.
 * Las ventas están mucho más correlacionadas con variables internas como: Número de empleados. Tamaño de la tienda. Ubicación geográfica, agrupada con DBSCAN.
