@@ -44,7 +44,7 @@ a. Se entrenaron dos modelos con CatBoostRegressor:
 |-------------------------------|------------------------------------------------------------------------------|
 | `Modelo_Predictivo_Prueba_Tecnica.ipynb` | Notebook principal con todo el proceso técnico, análisis y visualizaciones.         |
 | `ventas_enriquecidas.csv`     | Dataset final con todas las variables transformadas y enriquecidas.         |
-| `modelo_catboost.cbm`         | Modelo 1 entrenado final          |
+| `modelo_catboost.pkl`         | Modelo 1 entrenado final          |
 
 # Resultados
 
