@@ -7,7 +7,7 @@ Este proyecto corresponde a una prueba técnica de análisis de datos e intelige
 
 El objetivo es desarrollar un modelo que prediga las ventas diarias por tienda, integrando información geográfica, características de la tienda y ambiental.
 Se evalua también la influencia real de las precipitaciones en la dinámica de ventas, comparando un modelo simple contra uno más completo en cuanto a variables dependientes.
-Se recomienda encarecidamente revisar el .ipynb para mirar con más detalle qué se hizo, cómo se hizo y por qué se hizo.
+Se recomienda encarecidamente revisar el .ipynb para mirar con más detalle qué se hizo, cómo se hizo y por qué se hizo, así como la visualización e interpretación de resultados.
 
 # Qué se hizo?
 1. Extracción de datos
