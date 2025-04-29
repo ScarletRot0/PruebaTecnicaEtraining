@@ -90,6 +90,18 @@ Modelo 2, solo con lluvia:
 * Predicciones pobres, baja sensibilidad a la variabilidad real.
 * Los residuos fueron más dispersos y sesgados, se confirma que la precipitación por sí sola no explica las ventas.
 
+# Por qué R2 score y MSE (Mean Squared Error) como métricas?
+
+* Porque R2 score explica la proporción de la variabilidad en la variable dependiente (ventas_totales_dia) que es explicada por las variables independientes (que puede ser solo lluvia, o las manejadas en el modelo 1) y MSE indica el tamaño de los errores en términos absolutos algo útil para tener una idea de cuánto se desvían las predicciones del modelo de los valores reales.
+
+# Por qué DBSCAN para el 1mer modelo?
+
+Porque se buscaba incorporar la ubicación geográfica de las tiendas como una variable predictora. Dado que la ubicación está representada por coordenadas (latitud, longitud), era necesario transformar esta información en una forma numéricamente útil para el modelo, DBSCAN es un algoritmo de clustering espacial que agrupa puntos que están cerca unos de otros según una distancia euclidiana y una densidad mínima de puntos, y a diferencia de KMEANS, ignora outliers (ruido geográfico) e identifica automáticamente áreas densas de tiendas, así como el número de clusters sin indicarle.
+
+# Por qué se eligió CatBoost y no otros modelos como XGBoost, LightGBM o Random Forest?
+
+Porque en comparación con XGBoost y Random Forest, CatBoost fue más estable en cuanto a tiempo de entrenamiento y resultados, pues XGBoost había logrado en pruebas un R2 score de 73% y un MSE de 84, y Random Forest había obtenido el peor, 64% de R2 score y 115 de MSE.
+
 # Conclusiones
 * La variable de precipitación tiene muy bajo poder predictivo por sí sola.
 * Las ventas están mucho más correlacionadas con variables internas como: Número de empleados. Tamaño de la tienda. Ubicación geográfica, agrupada con DBSCAN.
