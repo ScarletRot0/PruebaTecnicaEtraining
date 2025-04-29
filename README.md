@@ -1,9 +1,9 @@
 # PruebaTecnicaEtraining
-
+### REALIZADO POR JULIANA ALEJANDRA ARENAS LOBO
 ## Modelo Predictivo de Ventas - Prueba Técnica
 
 # Objetivo
-Este proyecto corresponde a una prueba técnica de análisis de datos e inteligencia artificial orientada al desarrollo de un sistema predictivo para estimar el volumen de ventas en función de variables como la precipitación en mm, sacados de sensores y procesados según la hora más cercana al evento de compra, y ubicación más cercana a la tienda de compra.
+Este proyecto corresponde a una prueba técnica de análisis de datos e inteligencia artificial orientada al desarrollo de un modelo predictivo para la cadena FastFoods de Bogotá, para estimar el volumen de ventas en función de variables como la precipitación en mm, sacados de sensores y procesados según la hora más cercana al evento de compra, y ubicación más cercana a la tienda de compra.
 
 El objetivo es desarrollar un modelo que prediga las ventas diarias por tienda, integrando información geográfica, características de la tienda y ambiental.
 Se evalua también la influencia real de las precipitaciones en la dinámica de ventas, comparando un modelo simple contra uno más completo en cuanto a variables dependientes.
