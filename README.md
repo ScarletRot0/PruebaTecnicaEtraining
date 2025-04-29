@@ -110,6 +110,6 @@ Porque en comparación con XGBoost y Random Forest, CatBoost fue más estable en
 ![image](https://github.com/user-attachments/assets/05ce01d2-f1eb-407b-b99e-dbdafb1a219b)
 
 # Conclusiones
-* La variable de precipitación tiene muy bajo poder predictivo por sí sola.
+* La variable de precipitación tiene muy bajo poder predictivo por sí sola. Se escoge el modelo 1 (DBSCAN + variables a parte de la precipitación)
 * Las ventas están mucho más correlacionadas con variables internas como: Número de empleados. Tamaño de la tienda. Ubicación geográfica, agrupada con DBSCAN.
 * Es posible incorporar múltiples fuentes de datos heterogéneos (bases SQL, sensores, eventos) en un solo pipeline para generar un dataframe con el que entrenar un modelo predictivo.
