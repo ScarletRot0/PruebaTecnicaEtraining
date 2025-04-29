@@ -89,6 +89,9 @@ Modelo 2, solo con lluvia:
 * MSE: 295.06
 * Predicciones pobres, baja sensibilidad a la variabilidad real.
 * Los residuos fueron más dispersos y sesgados, se confirma que la precipitación por sí sola no explica las ventas.
+![image](https://github.com/user-attachments/assets/c3d12d70-2a92-4c14-a6ac-a0019b6ac4df)
+
+![image](https://github.com/user-attachments/assets/582aefc9-f095-43d9-98cb-5e6b5ef5c86d)
 
 # Por qué R2 score y MSE (Mean Squared Error) como métricas?
 
