@@ -113,3 +113,6 @@ Porque en comparación con XGBoost y Random Forest, CatBoost fue más estable en
 * La variable de precipitación tiene muy bajo poder predictivo por sí sola. Se escoge el modelo 1 (DBSCAN + variables a parte de la precipitación)
 * Las ventas están mucho más correlacionadas con variables internas como: Número de empleados. Tamaño de la tienda. Ubicación geográfica, agrupada con DBSCAN.
 * Es posible incorporar múltiples fuentes de datos heterogéneos (bases SQL, sensores, eventos) en un solo pipeline para generar un dataframe con el que entrenar un modelo predictivo.
+
+# NOTA ADICIONAL
+Cuando se quiera instalar un paquete en colab, se debe usar '!pip install' + el nombre del paquete, ejemplo: !pip install catboost
